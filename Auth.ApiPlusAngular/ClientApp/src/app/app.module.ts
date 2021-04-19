@@ -12,15 +12,19 @@ import { RegisterComponent } from './auth/Register/Register.component';
 import { LoginComponent } from './auth/Login/Login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NotifierModule } from 'angular-notifier';
+import { AdminPanelComponent } from './admin-panel/admin-panel.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 
 @NgModule({
-  declarations: [	
+  declarations: [			
     AppComponent,
     NavMenuComponent,
     HomeComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AdminPanelComponent,
+    UserProfileComponent
    ],
   imports: [
 
